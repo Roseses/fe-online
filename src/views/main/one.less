@@ -1,0 +1,27 @@
+.one {
+  box-sizing: border-box;
+  grid-template-columns: 300px auto;
+  display: grid;
+  height: 100%;
+  &__first {
+    border-right: 1px solid var(--el-menu-border-color);
+  }
+  &__bread {
+    padding: 0 16px;
+    border-bottom: 1px solid var(--el-menu-border-color);
+    min-height: 53px;
+    display: flex;
+    align-items: center;
+    line-height: 53px;
+  }
+  &__table {
+    padding: 0 16px;
+    min-height: 53px;
+    display: flex;
+    align-items: center;
+    line-height: 53px;
+  }
+  &__search {
+    padding: 16px;
+  }
+}

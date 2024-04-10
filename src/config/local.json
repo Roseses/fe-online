@@ -1,0 +1,16 @@
+{
+  "menu":[
+    {
+      "value":"/main/one",
+      "label":"用户管理"
+    },
+    {
+      "value":"/main/two",
+      "label":"团队管理"
+    },
+    {
+      "value":"/main/three",
+      "label":"职位维护"
+    }
+  ]
+}

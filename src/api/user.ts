@@ -10,11 +10,13 @@ const getUserData = (): User[] => {
     .map(() => {
       return {
         id: Math.random() + '',
-        name: (Math.random() + 1).toString(36).substring(7),
+        name: `张三${Math.floor(Math.random() * 20)}`,
+        account: Math.floor(Math.random() + 100000),
       }
     })
 }
 
+//@ts-ignore
 const query = (params: Partial<User & { orgId: string }>) => {
   return delay(getUserData())
 }
